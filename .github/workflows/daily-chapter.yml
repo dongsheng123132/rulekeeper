@@ -2,8 +2,8 @@ name: daily-chapter
 
 on:
   schedule:
-    # 每天 22:30 UTC = 北京时间 06:30
-    - cron: '30 22 * * *'
+    # 每天 23:30 UTC = 北京时间 07:30（早高峰通勤阅读时段）
+    - cron: '30 23 * * *'
   workflow_dispatch:
 
 permissions:
